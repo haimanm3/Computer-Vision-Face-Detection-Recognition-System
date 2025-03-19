@@ -1,1 +1,2 @@
 # Computer Vision Face Detection Recognition System
+This project implements a face detection system using AWS Rekognition to analyze images, detect faces, and retrieve facial attributes. It utilizes boto3 for AWS integration, PIL and skimage for image processing, and matplotlib for visualizing detection results. The system preprocesses images, sends them to AWS Rekognition, and overlays detected features for easy inspection. Ideal for applications in security, authentication, and emotion analysis, this project provides a simple yet powerful approach to face detection.
