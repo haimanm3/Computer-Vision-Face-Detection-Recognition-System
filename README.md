@@ -1,1 +1,1 @@
-# Computer-Vision-Face-Detection-Recognition-System
+# Computer Vision Face Detection Recognition System
