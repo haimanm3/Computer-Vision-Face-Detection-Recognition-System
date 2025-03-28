@@ -76,7 +76,7 @@ data/
 ```bash
 jupyter notebook
 ```
-3. In your browser, open the notebook file (`Face-Detection-Recognition.ipynb`) and run cells sequentially.
+3. In your browser, open the notebook file (`faceDetection.ipynb`) and run cells sequentially.
 
 ---
 
