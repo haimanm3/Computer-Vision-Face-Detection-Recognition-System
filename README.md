@@ -7,7 +7,6 @@ A Python-based application utilizing OpenCV and deep learning techniques to perf
 ![OpenCV](https://img.shields.io/badge/Built%20With-OpenCV-blue)
 ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-TensorFlow-orange)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![License](https://img.shields.io/github/license/haimanm3/Computer-Vision-Face-Detection-Recognition-System)
 
 ---
 
