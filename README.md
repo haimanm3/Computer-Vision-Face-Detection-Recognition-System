@@ -36,104 +36,40 @@ A Python-based application utilizing OpenCV and deep learning techniques to perf
 
 ## ▶️ How to Use
 
-Follow these steps to set up and run the application locally — GitHub is not required.
+Follow these steps to run the project via the provided Jupyter Notebook.
 
-### 📥 Step 1: Download the Project
+### 💻 Prerequisites
 
-- Obtain the full project folder via ZIP, USB, or file sharing.
-- Extract the folder and ensure the structure stays intact:
+- **Python 3.x**
+- **Jupyter Notebook** (Install: `pip install notebook`)
+- Required libraries: OpenCV, TensorFlow, Keras, Pillow
+  ```bash
+  pip install opencv-python tensorflow keras pillow
+  ```
 
-```
-Computer-Vision-Face-Detection-Recognition-System/
-├── data/
-├── models/
-├── src/
-└── README.md
-```
+### 📦 Step 1: Download the Project
 
----
+Clone the repository or download the ZIP file and extract it.
 
-### 🐍 Step 2: Install Python
+### 🚀 Step 2: Run the Jupyter Notebook
 
-Ensure Python 3.x is installed on your machine.
-
-To check:
+1. Open your terminal and navigate to the project directory.
+2. Launch Jupyter Notebook:
 ```bash
-python --version
+jupyter notebook
 ```
-
-If it is not installed, download it from:  
-👉 https://www.python.org/downloads/
-
----
-
-### 📦 Step 3: Install Required Libraries
-
-Open a terminal or command prompt and run:
-
-```bash
-pip install opencv-python tensorflow keras pillow
-```
-
----
-
-### 📸 Step 4: Prepare Face Data
-
-Inside the `data/` folder:
-
-1. Create one folder for each person to be recognized.
-2. Add 2–5 clear, front-facing images to each folder.
-
-Example structure:
-
-```
-data/
-├── Alice/
-│   ├── 1.jpg
-│   └── 2.jpg
-└── Bob/
-    ├── 1.jpg
-    └── 2.jpg
-```
-
----
-
-### ▶️ Step 5: Run the Application
-
-1. Open a terminal and navigate to the `src/` directory:
-
-```bash
-cd path/to/Computer-Vision-Face-Detection-Recognition-System/src
-```
-
-2. Launch the app:
-
-```bash
-python gui.py
-```
-
-The GUI will open and allow you to:
-
-- Start live face detection using your webcam
-- Recognize people from the image database
-- Add or update face entries
+3. In your browser, open the notebook file (`Face-Detection-Recognition.ipynb`) and run cells sequentially.
 
 ---
 
 ### 🧯 Troubleshooting
 
-- **Webcam Not Working?**  
-  Ensure no other apps are using it, and your system has granted access.
+- **Module Not Found?** Ensure you've installed dependencies:
+```bash
+pip install opencv-python tensorflow keras pillow notebook
+```
+- **Notebook not opening?** Ensure Jupyter is correctly installed and running.
 
-- **Face Not Recognized?**  
-  Use clearer, well-lit images. Add more examples per person.
-
-- **Missing Modules?**  
-  Reinstall required libraries:
-
-  ```bash
-  pip install opencv-python tensorflow keras pillow
-  ```
 ---
 
 ## 🙌 Acknowledgments
