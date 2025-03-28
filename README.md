@@ -51,7 +51,25 @@ Follow these steps to run the project via the provided Jupyter Notebook.
 
 Clone the repository or download the ZIP file and extract it.
 
-### 🚀 Step 2: Run the Jupyter Notebook
+### 📸 Step 2: Prepare the Data Directory
+
+Before running notebook cells, organize your data directory as follows:
+
+```
+data/
+├── Alice/
+│   ├── 1.jpg
+│   └── 2.jpg
+└── Bob/
+    ├── 1.jpg
+    └── 2.jpg
+```
+
+- Each folder (`Alice`, `Bob`, etc.) should contain clear, front-facing images (2–5 images per person).
+
+---
+
+### 🚀 Step 3: Run the Jupyter Notebook
 
 1. Open your terminal and navigate to the project directory.
 2. Launch Jupyter Notebook:
